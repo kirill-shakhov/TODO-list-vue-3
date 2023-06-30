@@ -1,0 +1,36 @@
+$color-weights: 25, 50, 100, 200, 300, 400, 500, 600, 700, 800, 900;
+
+// Primary colors
+
+@import "base";
+@import "gray";
+@import "primary";
+@import "error";
+@import "warning";
+@import "success";
+
+// Secondary colors
+
+@import "gray-blue";
+@import "gray-cool";
+@import "gray-modern";
+@import "gray-neutral";
+@import "gray-iron";
+@import "gray-true";
+@import "gray-warm";
+@import "moss";
+@import "green-light";
+@import "green";
+@import "teal";
+@import "cyan";
+@import "blue-light";
+@import "blue";
+@import "blue-dark";
+@import "indigo";
+@import "violet";
+@import "purple";
+@import "pink";
+@import "rose";
+@import "orange-dark";
+@import "orange";
+@import "yellow";

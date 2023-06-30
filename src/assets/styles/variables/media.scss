@@ -1,0 +1,24 @@
+$xs: 0;
+$sm: 480px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1180px;
+$xxl: 1440px;
+
+// переопределение переменных bootstrap
+$grid-breakpoints: (
+  xs: $xs,
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl,
+  xxl: $xxl,
+) !default;
+
+// TODO: заменить старые медиа запросы на новые (xs, sm, md, ...)
+$phone-bp: 320px;
+$phone-lg-bp: 480px;
+$tablet-bp: 768px;
+$desktop-bp: 1024px;
+$desktop-lg-bp: 1180px;
+$laptop-lg-bp: 1440px;

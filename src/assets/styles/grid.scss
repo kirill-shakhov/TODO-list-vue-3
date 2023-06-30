@@ -1,0 +1,25 @@
+.container {
+  --gap: 8px;
+
+  max-width: 100%;
+  padding: 0 calc(2 * var(--gap));
+  margin: 0 auto;
+
+  @include tablet {
+    --gap: 16px;
+  }
+
+  @include lg {
+    max-width: 1280px;
+  }
+}
+
+.row {
+  margin-right: calc(-1 * var(--gap));
+  margin-left: calc(-1 * var(--gap));
+}
+
+[class^=col] {
+  padding-right: var(--gap);
+  padding-left: var(--gap);
+}
